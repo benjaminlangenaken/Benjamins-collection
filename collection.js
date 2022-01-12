@@ -107,3 +107,47 @@ for (let item in albumCollection) {
     albumCard.className = "card";
     document.getElementsByClassName("container")[0].appendChild(albumCard)
 }
+
+//adding card contents
+for (let item in albumCollection) {
+    const rankNr = document.createElement("h1");
+    rankNr.innerHTML = albumCollection[item].rankNr;
+    rankNr.className = "ranknr";
+    document.getElementsByClassName("card")[item].appendChild(rankNr);
+
+    const name = document.createElement("h2");
+    name.innerHTML = albumCollection[item].name;
+    name.className = "name";
+    document.getElementsByClassName("card")[item].appendChild(name);
+
+    const artist = document.createElement("h2");
+    artist.innerHTML = albumCollection[item].artist;
+    artist.className = "artist";
+    document.getElementsByClassName("card")[item].appendChild(artist);
+
+    const releaseYear = document.createElement("h3");
+    releaseYear.innerHTML = albumCollection[item].releaseYear;
+    releaseYear.className = "releaseYear";
+    document.getElementsByClassName("card")[item].appendChild(releaseYear);
+
+    const genre = document.createElement("h3");
+    genre.innerHTML = albumCollection[item].genre;
+    genre.className = "genre";
+    document.getElementsByClassName("card")[item].appendChild(genre);
+
+    const info = document.createElement("p");
+    info.innerHTML = albumCollection[item].info;
+    info.className = "info";
+    document.getElementsByClassName("card")[item].appendChild(info);
+
+    const img = document.createElement("img");
+    img.src = albumCollection[item].imgUrl;
+    img.className = "imgUrl";
+    document.getElementsByClassName("card")[item].appendChild(img);
+
+    const spotifyUrl = document.createElement("a");
+    spotifyUrl.innerHTML = albumCollection[item].spotifyUrl;
+    spotifyUrl.href = albumCollection[item].spotifyUrl;
+    spotifyUrl.className = "spotifyUrl";
+    document.getElementsByClassName("card")[item].appendChild(spotifyUrl);
+}
