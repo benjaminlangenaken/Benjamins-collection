@@ -100,3 +100,10 @@ const albumCollection = [
         spotifyUrl: "https://open.spotify.com/album/2v6ANhWhZBUKkg6pJJBs3B"
     }
 ]
+
+// adding cards to HTML
+for (let item in albumCollection) {
+    const albumCard = document.createElement("div");
+    albumCard.className = "card";
+    document.getElementsByClassName("container")[0].appendChild(albumCard)
+}
