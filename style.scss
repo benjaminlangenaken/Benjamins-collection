@@ -30,7 +30,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     position: relative;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
     border-radius: 10px;
 }
 
@@ -58,6 +58,7 @@ img{
     top: 0;
     transform: translate(-45px,-45px);
     border-radius: 50%;
+    box-shadow: #264653 0px 8px 12px;
 }
 
 a{
@@ -83,8 +84,15 @@ a{
 
 h2{
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.2rem;
-    text-align: center;
+    font-size: 1.7rem;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 40px;
+}
+
+.artist{
+    font-size: 1rem;
+    opacity:0.8;
 }
 
 h3{
@@ -93,9 +101,25 @@ h3{
     text-align: center;
 }
 
+.releaseYear{
+font-size: 1.2rem;
+    display: inline;
+    position: absolute;
+    right: -35px;
+    top: 450px;
+    transform: translate(-45px,-45px);
+}
+
 .info{
     font-family: 'Open Sans', sans-serif;
     font-size: 0.8rem;
     text-align: justify;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+    border-color: #e9c46a;
 }

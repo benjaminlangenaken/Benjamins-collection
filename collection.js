@@ -145,6 +145,9 @@ for (let album in albumCollection) {
     img.className = "imgUrl";
     document.getElementsByClassName("card")[album].appendChild(img);
 
+    const line = document.createElement("hr");
+    document.getElementsByClassName("card")[album].appendChild(line);
+
     const spotifyUrl = document.createElement("a");
     spotifyUrl.innerHTML = albumCollection[album].spotifyUrl;
     spotifyUrl.href = albumCollection[album].spotifyUrl;
