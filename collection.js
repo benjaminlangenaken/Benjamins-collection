@@ -55,7 +55,7 @@ const albumCollection = [
         artist: "The Beatles",
         releaseYear: 1969,
         genre: ["pop", "rock"],
-        info: "“It was a very happy record,” said producer George Martin, describing this album in The Beatles Anthology. “I guess it was happy because everybody thought it was going to be the last.” Indeed, Abbey Road almost never got made at all. That January, the Beatles were on the verge of a breakup, exhausted and angry with one another after the disastrous sessions for the aborted Get Back LP, later salvaged as Let It Be. Yet determined to go out with the same glory with which they had ﬁrst entranced the world at the start of the decade, the group reconvened at EMI’s Abbey Road Studios to make their most polished album: a collection of superb songs cut with an attention to reﬁned detail, then segued together with conceptual force.",
+        info: "“It was a very happy record,” said producer George Martin. “I guess it was happy because everybody thought it was going to be the last.” Indeed, Abbey Road almost never got made at all. That January, the Beatles were on the verge of a breakup, exhausted and angry with one another after the disastrous sessions for the aborted Get Back LP. Yet determined to go out with the same glory with which they had ﬁrst entranced the world at the start of the decade, the group reconvened at EMI’s Abbey Road Studios to make their most polished album: a collection of superb songs cut with an attention to reﬁned detail, then segued together with conceptual force.",
         imgUrl: "https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-005-Beatles-ABBEY-ROAD.jpg?w=1000",
         spotifyUrl: "https://open.spotify.com/album/0ETFjACtuP2ADo6LFhL6HN"
     },
