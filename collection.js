@@ -55,7 +55,7 @@ const albumCollection = [
         artist: "The Beatles",
         releaseYear: 1969,
         genre: ["pop", "rock"],
-        info: "“It was a very happy record,” said producer George Martin, describing this album in The Beatles Anthology. “I guess it was happy because everybody thought it was going to be the last.” Indeed, Abbey Road — recorded in two months during the summer of 1969 — almost never got made at all. That January, the Beatles were on the verge of a breakup, exhausted and angry with one another after the disastrous sessions for the aborted Get Back LP, later salvaged as Let It Be [see No. 342]. Yet determined to go out with the same glory with which they had ﬁrst entranced the world at the start of the decade, the group reconvened at EMI’s Abbey Road Studios to make their most polished album: a collection of superb songs cut with an attention to reﬁned detail, then segued together (especially on Side Two) with conceptual force.",
+        info: "“It was a very happy record,” said producer George Martin, describing this album in The Beatles Anthology. “I guess it was happy because everybody thought it was going to be the last.” Indeed, Abbey Road almost never got made at all. That January, the Beatles were on the verge of a breakup, exhausted and angry with one another after the disastrous sessions for the aborted Get Back LP, later salvaged as Let It Be. Yet determined to go out with the same glory with which they had ﬁrst entranced the world at the start of the decade, the group reconvened at EMI’s Abbey Road Studios to make their most polished album: a collection of superb songs cut with an attention to reﬁned detail, then segued together with conceptual force.",
         imgUrl: "https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-005-Beatles-ABBEY-ROAD.jpg?w=1000",
         spotifyUrl: "https://open.spotify.com/album/0ETFjACtuP2ADo6LFhL6HN"
     },
@@ -102,52 +102,52 @@ const albumCollection = [
 ]
 
 // adding cards to HTML
-for (let item in albumCollection) {
+for (let album in albumCollection) {
     const albumCard = document.createElement("div");
     albumCard.className = "card";
     document.getElementsByClassName("container")[0].appendChild(albumCard)
 }
 
 //adding card contents
-for (let item in albumCollection) {
-    const rankNr = document.createElement("h1");
-    rankNr.innerHTML = albumCollection[item].rankNr;
+for (let album in albumCollection) {
+    const rankNr = document.createElement("p");
+    rankNr.innerHTML = albumCollection[album].rankNr;
     rankNr.className = "ranknr";
-    document.getElementsByClassName("card")[item].appendChild(rankNr);
+    document.getElementsByClassName("card")[album].appendChild(rankNr);
 
     const name = document.createElement("h2");
-    name.innerHTML = albumCollection[item].name;
+    name.innerHTML = albumCollection[album].name;
     name.className = "name";
-    document.getElementsByClassName("card")[item].appendChild(name);
+    document.getElementsByClassName("card")[album].appendChild(name);
 
     const artist = document.createElement("h2");
-    artist.innerHTML = albumCollection[item].artist;
+    artist.innerHTML = albumCollection[album].artist;
     artist.className = "artist";
-    document.getElementsByClassName("card")[item].appendChild(artist);
+    document.getElementsByClassName("card")[album].appendChild(artist);
 
     const releaseYear = document.createElement("h3");
-    releaseYear.innerHTML = albumCollection[item].releaseYear;
+    releaseYear.innerHTML = albumCollection[album].releaseYear;
     releaseYear.className = "releaseYear";
-    document.getElementsByClassName("card")[item].appendChild(releaseYear);
+    document.getElementsByClassName("card")[album].appendChild(releaseYear);
 
     const genre = document.createElement("h3");
-    genre.innerHTML = albumCollection[item].genre;
+    genre.innerHTML = albumCollection[album].genre;
     genre.className = "genre";
-    document.getElementsByClassName("card")[item].appendChild(genre);
+    document.getElementsByClassName("card")[album].appendChild(genre);
 
     const info = document.createElement("p");
-    info.innerHTML = albumCollection[item].info;
+    info.innerHTML = albumCollection[album].info;
     info.className = "info";
-    document.getElementsByClassName("card")[item].appendChild(info);
+    document.getElementsByClassName("card")[album].appendChild(info);
 
     const img = document.createElement("img");
-    img.src = albumCollection[item].imgUrl;
+    img.src = albumCollection[album].imgUrl;
     img.className = "imgUrl";
-    document.getElementsByClassName("card")[item].appendChild(img);
+    document.getElementsByClassName("card")[album].appendChild(img);
 
     const spotifyUrl = document.createElement("a");
-    spotifyUrl.innerHTML = albumCollection[item].spotifyUrl;
-    spotifyUrl.href = albumCollection[item].spotifyUrl;
+    spotifyUrl.innerHTML = albumCollection[album].spotifyUrl;
+    spotifyUrl.href = albumCollection[album].spotifyUrl;
     spotifyUrl.className = "spotifyUrl";
-    document.getElementsByClassName("card")[item].appendChild(spotifyUrl);
+    document.getElementsByClassName("card")[album].appendChild(spotifyUrl);
 }

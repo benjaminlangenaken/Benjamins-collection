@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+$primary-background-color: #f7fff7;
+
+body{
+    background-color: $primary-background-color;
+    font-family: 'Dancing Script', cursive;
+    color: #1a535c;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 20vw;
+    height: 75vh;
+    padding: 1.5vw;
+    margin: 2vw;
+    background-color: #4ecdc4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 15px;
+}
+
+img{
+    width: auto;
+    height: 20vh;
+    object-fit: cover;
+    order: -1;
+    border-radius: 15px;
+}
+
+.ranknr{
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 20px;
+    background-color: #1a535c;
+    color: #f7fff7;
+    text-align: center;
+    justify-content: center;
+    display: inline;
+    
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-20px,-20px);
+    // z-index: 5;
+    border-radius: 50%;
+}
+
+a{
+    background-image: url(./images/spotify.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 90px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border: none;
+    border-radius: 15px;
+}
