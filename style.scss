@@ -80,14 +80,14 @@ a{
 
 h2{
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-align: left;
-    padding: 0px 40px 0px 10px;
+    padding-left: 10px;
     margin: 0px;
 }
 
 .artist{
-    font-size: 1rem;
+    font-size: 1.2rem;
     opacity:0.8;
 }
 
@@ -97,7 +97,7 @@ h3{
 }
 
 .releaseYear{
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-align: left;
     padding: 0px 40px 0px 10px;
 }
@@ -141,13 +141,12 @@ hr{
     }
 
     h2{
-        font-size: 1.7rem;
+        font-size: 1.6rem;
         padding-left: 10px;
-        padding-right: 40px;
     }
     
     .artist{
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
     
     h3{
@@ -171,9 +170,5 @@ hr{
 
     .releaseYear{
         font-size: 1rem;
-        // position: absolute;
-        // right: -35px;
-        // top: 450px;
-        // transform: translate(-45px,-45px);
     }
 }
