@@ -1,23 +1,23 @@
 const albumCollection = [
     {
         rankNr: 10,
-        name: "The Miseducation of Lauryn Hill",
-        artist: "Lauryn Hill",
-        releaseYear: 1998,
-        genre: ["R&B", "Soul"],
-        info: "“This is a very sexist industry,” Lauryn Hill told Essence magazine in 1998. “They’ll never throw the ‘genius’ title to a sister.” Though already a star as co-leader of the Fugees, with Wyclef Jean, she was hungry to express her own vision. “[I wanted to] write songs that lyrically move me and have the integrity of reggae and the knock of hip-hop and the instrumentation of classic soul,” the singer said of her debut album.",
-        imgUrl: "https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-010-Lauryn-Hill-MISEDUCATION.jpg?w=1000",
-        spotifyUrl: "https://open.spotify.com/album/1BZoqf8Zje5nGdwZhOjAtD"
+        name: "The Dark Side of the Moon",
+        artist: "Pink Floyd",
+        releaseYear: 1973,
+        genre: ["Rock"],
+        info: "“I think every album was a step towards Dark Side of the Moon,” keyboardist Rick Wright said. “We were learning all the time; the techniques of the recording and our writing was getting better.” As a culmination of their inner-space explorations of the early 1970s, the Floyd toured the bulk of Dark Side in Britain for months prior to recording. Dark Side is one of the best-produced rock albums ever, and “Money” may be rock’s only Top 20 hit in 7/4 time.",
+        imgUrl: "https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-055-Pink-Floyd-Dark-Side-of-the-Moon.jpg?w=1000",
+        spotifyUrl: "https://open.spotify.com/album/2WT1pbYjLJciAR26yMebkH"
     },
     {
         rankNr: 9,
-        name: "Blood on the Tracks",
+        name: "Highway 61 Revisited",
         artist: "Bob Dylan",
-        releaseYear: 1975,
+        releaseYear: 1965,
         genre: ["Folk", "Rock"],
-        info: "Bob Dylan once introduced this album’s opening song, “Tangled Up in Blue,” onstage as taking him 10 years to live and two years to write. It was, for him, a pointed reference to the personal crisis — the collapse of his marriage to Sara Lowndes — that at least partly inspired this album, Dylan’s best of the 1970s.",
-        imgUrl: "https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-009-Bob-Dylan-BLOOD-ON-THE-TRACKS.jpg?w=1000",
-        spotifyUrl: "https://open.spotify.com/album/4WD4pslu83FF6oMa1e19mF"
+        info: "Bruce Springsteen has described the beginning of “Like a Rolling Stone,” the opening song on Bob Dylan’s Highway 61 Revisited, as the “snare shot that sounded like somebody’d kicked open the door to your mind.” In and of itself, “Like a Rolling Stone,” which was rumored to be about Andy Warhol acolyte Edie Sedgwick, forever altered the landscape of popular music — its “vomitiﬁc” lyrics (in Dylan’s memorable term), literary ambition, and sheer length (6:13) shattered limitations of every kind. But that was literally only the beginning.",
+        imgUrl: "https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-018-Bob-Dylan-HWY-61-REVISITED-updated.jpg?w=1000",
+        spotifyUrl: "https://open.spotify.com/album/6YabPKtZAjxwyWbuO9p4ZD"
     },
     {
         rankNr: 8,
@@ -61,26 +61,6 @@ const albumCollection = [
     },
     {
         rankNr: 4,
-        name: "Songs in the Key of Life",
-        artist: "Stevie Wonder",
-        releaseYear: 1976,
-        genre: ["R&B", "Soul"],
-        info: "Months before the recording sessions for Songs in the Key of Life ended, the musicians in Stevie Wonder’s band had T-shirts made up that proclaimed, “We’re almost finished.” It was the stock answer to casual fans and Motown executives and everybody who’d fallen in love with Wonder’s early-Seventies gems – 1972’s Talking Book, 1973’s Innervisions, and 1974’s Fulfillingness’ First Finale – and who had been waiting two years for the next chapter. “I believed there was a lot that needed to be said,” Wonder said. More, in fact, than he could fit onto a double album – also included was a bonus EP, a seven-inch single with four more songs from the sessions.",
-        imgUrl: "https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-004-Stevie-Wonder-SONGS-IN-THE-KEY-OF-LIFE.jpg?w=1000",
-        spotifyUrl: "https://open.spotify.com/album/6YUCc2RiXcEKS9ibuZxjt0"
-    },
-    {
-        rankNr: 3,
-        name: "Blue",
-        artist: "Joni Mitchell",
-        releaseYear: 1971,
-        genre: ["Folk"],
-        info: "In 1971, Joni Mitchell represented the West Coast feminine ideal — celebrated by Robert Plant as “a girl out there with love in her eyes and flowers in her hair” on Led Zeppelin’s “Goin’ to California.” It was a status that Mitchell hadn’t asked for and did not want: “I went, ‘Oh, my God, a lot of people are listening to me,’” she recalled in 2013. “’They better find out who they’re worshiping. Let’s see if they can take it. Let’s get real.’ So I wrote Blue.”",
-        imgUrl: "https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-003-JoniMitchell-BLUE-HR.jpg?w=1000",
-        spotifyUrl: "https://open.spotify.com/album/1vz94WpXDVYIEGja8cjFNa"
-    },
-    {
-        rankNr: 2,
         name: "Pet Sounds",
         artist: "The Beach Boys",
         releaseYear: 1966,
@@ -90,7 +70,7 @@ const albumCollection = [
         spotifyUrl: "https://open.spotify.com/album/6GphKx2QAPRoVGWE9D7ou8"
     },
     {
-        rankNr: 1,
+        rankNr: 3,
         name: "What's Going On",
         artist: "Marvin Gaye",
         releaseYear: 1971,
@@ -98,6 +78,26 @@ const albumCollection = [
         info: "Marvin Gaye’s masterpiece began as a reaction to police brutality. In May 1969, Renaldo “Obie” Benson, the Four Tops’ bass singer, watched TV coverage of hundreds of club-wielding cops breaking up the People’s Park, a protest hub in Berkeley. Aghast at the violence, Benson began to write a song with Motown lyricist Al Cleveland, trying to capture the confusion and pain of the times. He knew he had something big in his nascent version of “What’s Going On,” but the rest of the Four Tops weren’t interested, and Benson’s efforts to get Joan Baez to record it didn’t work out, either.",
         imgUrl: "https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-001-Marvin-Gaye-WHATS-GOING-ON.jpg?w=1000",
         spotifyUrl: "https://open.spotify.com/album/2v6ANhWhZBUKkg6pJJBs3B"
+    },
+    {
+        rankNr: 2,
+        name: "Blue",
+        artist: "Joni Mitchell",
+        releaseYear: 1971,
+        genre: ["Folk"],
+        info: "In 1971, Joni Mitchell represented the West Coast feminine ideal — celebrated by Robert Plant as “a girl out there with love in her eyes and flowers in her hair” on Led Zeppelin’s “Goin’ to California.” It was a status that Mitchell hadn’t asked for and did not want: “I went, ‘Oh, my God, a lot of people are listening to me,’” she recalled in 2013. “’They better find out who they’re worshiping. Let’s see if they can take it. Let’s get real.’ So I wrote Blue.”",
+        imgUrl: "https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-003-JoniMitchell-BLUE-HR.jpg?w=1000",
+        spotifyUrl: "https://open.spotify.com/album/1vz94WpXDVYIEGja8cjFNa"
+    },
+    {
+        rankNr: 1,
+        name: "Kind of Blue",
+        artist: "Miles Davis",
+        releaseYear: 1959,
+        genre: ["Jazz"],
+        info: "This painterly masterpiece is one of the most important, inﬂuential, and popular albums in jazz. At the time it was made, Kind of Blue was also a revolution all its own. Turning his back on standard chord progressions, trumpeter Miles Davis used modal scales as a starting point for composition and improvisation — breaking new ground with warmth, subtlety, and understatement in the thick of hard bop. Davis and his peerless band — bassist Paul Chambers, drummer Jimmy Cobb, pianist Bill Evans, and the titanic sax team of John Coltrane and Cannonball Adderley — soloed in uncluttered settings, typiﬁed by “melodic rather than harmonic variation,” as Davis put it.",
+        imgUrl: "https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-031-Miles-Davis-KIND-OF-BLUE.jpg?w=1000",
+        spotifyUrl: "https://open.spotify.com/album/1weenld61qoidwYuZ1GESA"
     }
 ]
 
