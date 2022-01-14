@@ -7,7 +7,7 @@ $primary-background-color: #f7fff7;
 
 body{
     background-color: $primary-background-color;
-    font-family: cursive;
+    font-family: 'Nunito', sans-serif;
     color: #264653;
     width: 100%;
     height: 100%;
@@ -45,6 +45,7 @@ img{
 .ranknr{
     width: 15vw;
     height: 15vw;
+    font-family: cursive;
     font-size: 1.5rem;
     font-weight: 700;
     padding: 2vw;
@@ -91,7 +92,6 @@ h2{
 }
 
 h3{
-    font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     text-align: center;
 }
@@ -107,7 +107,6 @@ h3{
 
 .info{
     display: none;
-    font-family: 'Open Sans', sans-serif;
     font-size: 0.8rem;
     text-align: justify;
     padding-left: 10px;
