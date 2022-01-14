@@ -97,12 +97,9 @@ h3{
 }
 
 .releaseYear{
-    font-size: 1.2rem;
-    display: inline;
-    position: absolute;
-    right: -10vw;
-    top: 105vw;
-    transform: translate(-45px,-45px);
+    font-size: 1rem;
+    text-align: left;
+    padding: 0px 40px 0px 10px;
 }
 
 .info{
@@ -173,10 +170,10 @@ hr{
     }
 
     .releaseYear{
-        font-size: 1.2rem;
-        position: absolute;
-        right: -35px;
-        top: 450px;
-        transform: translate(-45px,-45px);
+        font-size: 1rem;
+        // position: absolute;
+        // right: -35px;
+        // top: 450px;
+        // transform: translate(-45px,-45px);
     }
 }
