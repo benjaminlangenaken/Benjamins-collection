@@ -102,6 +102,7 @@ const albumCollection = [
 ]
 
 // adding cards to HTML
+
 for (let album in albumCollection) {
     const albumCard = document.createElement("div");
     albumCard.className = "card";
@@ -125,15 +126,16 @@ for (let album in albumCollection) {
     artist.className = "artist";
     document.getElementsByClassName("card")[album].appendChild(artist);
 
-    const releaseYear = document.createElement("h3");
+    const releaseYear = document.createElement("p");
     releaseYear.innerHTML = albumCollection[album].releaseYear;
     releaseYear.className = "releaseYear";
     document.getElementsByClassName("card")[album].appendChild(releaseYear);
 
     const genre = document.createElement("h3");
-    genre.innerHTML = albumCollection[album].genre;
     genre.className = "genre";
+    genre.innerHTML = albumCollection[album].genre
     document.getElementsByClassName("card")[album].appendChild(genre);
+
 
     const info = document.createElement("p");
     info.innerHTML = albumCollection[album].info;
